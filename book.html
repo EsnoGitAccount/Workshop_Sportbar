@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <form method="post" action="https://formspree.io/f/xqedbnkb">
+        <section>
+            <div>
+            <label for="FirstName">Name:</label>
+            <input type="text" name="FirstName" id="FirstName" required>
+        </div>
+        <div>
+            <label for="LastName">Lastname:</label>
+            <input type="text" name="LastName" id="LastName" required>
+        </div>
+        <div>
+            <label for="email">E-post:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" required>     
+        </div>
+        <div>
+            <label for="numberOfPeople">Number of people</label>
+            <input type="number" name="numberOfPeople" id="numberOfPeople" min="1" max="10" required>
+        </div>
+
+        <button>Book</button>
+        </section>
+        
+    </form>
+    
+</body>
