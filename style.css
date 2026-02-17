@@ -41,7 +41,11 @@ button:hover {
     font-size: 16px;
     box-sizing: border-box;
 }
+/* ==============================================================================
 
+1. HEADER / NAV
+
+header{
 *, *::before, *::after {
     box-sizing: inherit;
     margin: 0;
@@ -202,7 +206,8 @@ header nav li{
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: black;
+    
 }
 
 .about-us-container{     
@@ -227,5 +232,83 @@ a {
 }
 header nav li:hover{
     background-color: rgb(46, 136, 46);
+    transition: 0.4s;
+}
+
+/* ==============================================================================
+MENY
+.meny-section{
+    background-image: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+.meny-section h1{
+    font-size: 4rem;
+    margin: auto auto;
+    width: fit-content;
+    color: white;
+}
+
+.meny-1{
+    margin: 1rem auto;
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.article-1{
+    background-color: rgb(251, 229, 193);
+    padding: 1rem;
+    width: 25rem;
+    transition: 0.4s;
+}
+
+.article-1:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 4px 4px 4px;
+}
+
+.meny-2{
+    margin: 1rem auto;
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.article-2{
+    background-color: rgb(251, 229, 193);
+    padding: 1rem;
+    width: 25rem;
+    transition: 0.4s;
+}
+.article-2:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 4px 4px 4px;
+}
+
+.article-1 p, .article-2 p{
+    border-bottom: 1px solid gray;
+}
+
+.allergener{
+    margin: auto;
+    padding: 0 1rem;
+    background-color: rgb(251, 229, 193);
+    width: fit-content;
+    transition: 0.4s;
+    border: 2px solid;
+}
+
+.allergener:hover{
+    transform: scale(2);
     transition: 0.4s;
 }
