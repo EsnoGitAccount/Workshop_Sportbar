@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: .8rem;
+    padding: 1rem 0;
+}
+footer ul{
+    list-style: none;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;;
+}
+
+.social-media-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+:root{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
