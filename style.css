@@ -204,6 +204,26 @@ a {
     color: inherit;
 }
 
+.about-us-container{     
+    background-color: #045d15;  
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 1rem 0;
+    color: whitesmoke;
+
+}
+.about-us-container p{
+    padding: 1rem;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.about-us-card-img {
+    max-width: 50%;
+    height: 50%;
+    align-self: center;
+}
 header nav li:hover{
     background-color: rgb(46, 136, 46);
     transition: 0.4s;
