@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+
+}
+
+header nav {
+    background-color: rgb(73, 221, 73);
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav li{
+    padding: 0.4rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    border-radius: 10px;
+
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav li:hover{
+    background-color: rgb(46, 136, 46);
+    transition: 0.4s;
+}
+
