@@ -1,9 +1,20 @@
-*{
+:root {
+    font-size: 16px;
     box-sizing: border-box;
 }
 
-header{
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: rgb(73, 221, 73);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 header nav {
@@ -17,6 +28,49 @@ header nav ul{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
+}
+
+.hero-section {
+    background-image: url("https://plus.unsplash.com/premium_photo-1683134403875-555f5a84f785?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #02ab18;
+    color: white;
+    border: 1px solid orange;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 h1 {
@@ -63,7 +117,7 @@ h1::before, h1::after {
 .job-hire-container {
     color: whitesmoke;
     display: flex;
-    text-align: center;
+    text-align: justify;
     padding: 2rem;
     height: 100%;
     width: 100%;
@@ -97,23 +151,21 @@ footer{
     padding: 1rem 0;
     background: linear-gradient(to right, #028623 80%, #02ab18);
 }
-footer ul{
+
 header nav li{
     padding: 0.4rem;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     border-radius: 10px;
-
 }
 
-header nav a{
+a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 header nav li:hover{
     background-color: rgb(46, 136, 46);
     transition: 0.4s;
 }
-
