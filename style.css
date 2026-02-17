@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: .8rem;
+    padding: 1rem 0; 
+}
+footer ul{
+    list-style: none;
+}
+
+:root{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
