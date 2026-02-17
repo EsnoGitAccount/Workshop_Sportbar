@@ -130,6 +130,7 @@ h1::before, h1::after {
 
 .job-hire-container p {
     font-size: 1.2rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .job-hire-section .cta-button {
