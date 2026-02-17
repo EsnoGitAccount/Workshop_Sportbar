@@ -50,4 +50,175 @@ button {
 
 button:hover {
     background: #c53434;
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(73, 221, 73);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+header nav {
+    background-color: rgb(73, 221, 73);
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.hero-section {
+    background-image: url("https://plus.unsplash.com/premium_photo-1683134403875-555f5a84f785?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #02ab18;
+    color: white;
+    border: 1px solid orange;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-size: 1.9rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1::before, h1::after {
+    content: "🍻";
+}
+
+.event-section {
+§    background-image: url("https://plus.unsplash.com/premium_photo-1661602280744-c64396102bcb?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    padding: 2rem;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-card {
+    color: whitesmoke;
+    background-color: rgba(0, 149, 17, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+.job-hire-section {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661695810257-35142e1415ca?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.job-hire-container {
+    color: whitesmoke;
+    display: flex;
+    text-align: justify;
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.job-hire-container p {
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.job-hire-section .cta-button {
+    margin-top: 0;
+}
+
+.job-hire-section h2 {
+    color: whitesmoke;
+    font-size: 1.8rem;
+
+}
+
+footer{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: .8rem;
+    padding: 1rem 0;
+    background: linear-gradient(to right, #028623 80%, #02ab18);
+}
+
+header nav li{
+    padding: 0.4rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav li:hover{
+    background-color: rgb(46, 136, 46);
+    transition: 0.4s;
 }
